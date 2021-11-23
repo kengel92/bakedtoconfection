@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- 
+*****************************************************************************
+Title: Website Homepage
+Use: Contact page of Baked to Confection Bakery.
+Author: Kristen Engel
+School/Term: Southern Illinois University, Fall 2021
+Developed: November 7, 2021
+Tested: November 7, 2021; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                    $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+                              });
+        </script>
+        <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <p><img id="logo" src="Logo2.png"></p>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="home.htm">Home</li>
+            <li><a href="Class%20Information.htm">Class Information</a></li>
+            <li><a href="Prices.htm">Prices</a></li>
+            <li><a href="About%20Me.htm">About Me</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+        </ul>
+    </nav>
+    <p id="touch">Let's get in touch!</p>
+    <label for="name">Name: </label>
+    <input type="text" id="name" autofocus required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br>
+    <label for="reason">Reason for contact: </label>
+    <select id="reason" required>
+        <option value="Custom">Custom Order</option>
+        <option value="questions">Question About My Order</option>
+        <option value="general">General Question</option>
+    </select><br>
+    <label for="message">Message: </label>
+    <textarea id="message" required></textarea><br><br><br>
+    <p id="if">*If contacting about a custom order, please include the date you need them and amount you need so I can check availability.</p>
+</body>
+</html>

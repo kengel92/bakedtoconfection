@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- 
+*****************************************************************************
+Title: Website Homepage
+Use: Class Information page of Baked to Confection Bakery.
+Author: Kristen Engel
+School/Term: Southern Illinois University, Fall 2021
+Developed: November 7, 2021
+Tested: November 7, 2021; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <title>Class Information</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                    $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+                              });
+        </script>
+        <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <p><img id="logo" src="Logo2.png"></p>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="home.htm">Home</li>
+            <li><a href="Class%20Information.htm">Class Information</a></li>
+            <li><a href="Prices.htm">Prices</a></li>
+            <li><a href="About%20Me.htm">About Me</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

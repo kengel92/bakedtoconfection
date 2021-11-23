@@ -1,0 +1,104 @@
+/**************************************************************************************
+* Description: Primary style sheet for Baked to Confection website
+* Author: Kristen Engel
+**************************************************************************************/
+
+html {
+    background-image: url(shutterstock_13717488112.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center right;
+}
+#logo {
+    width: 400px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: radius;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about_pic {
+    width: 220px;
+    height: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+#about {
+    font-family: "verdana";
+    font-size: 18px;
+    margin-left: 450px;
+    margin-right: 450px;
+    line-height: 150%;
+}
+@font-face {
+    font-family: "brittanysignature";
+    src: url("BrittanySignature.ttf");
+}
+@font-face {
+    font-family: "islandia";
+    src: url("islandia.ttf")
+}
+@font-face {
+    font-family: "modernlovecaps";
+    src: url("modernlovecaps.ttf");
+}
+#hello {
+    font-family: "islandia";
+    font-size: 85px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+#signature {
+    font-family: "brittanysignature";
+    font-size: 48px;
+    text-align: center;
+}
+#touch {
+    font-family: "modernlovecaps";
+    font-size: 50px;
+    margin-left: 200px;
+}
+label {
+    font-family: "modernlovecaps";
+    font-size: 30px;
+    margin-left: 200px;
+    text-align: right;
+    line-height: 250%;
+}
+input {
+    font-family: "verdana";
+    font-size: 15px;
+    margin-left: 5em;
+    height: 2em;
+    vertical-align: middle;
+}
+select {
+    height: 3em;
+    font-family: "verdana";
+}
+textarea {
+    height: 15em;
+    width: 40em;
+    vertical-align: middle;
+    margin-left: 3em;
+}
+#if {
+    font-family: "verdana";
+    font-size: 18px;
+    margin-left: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+#nav_menu ul { 
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
